@@ -1,0 +1,120 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body,
+button,
+a,
+select,
+input {
+  font-family: Roboto, sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-hero {
+  max-width: 800px;
+  width: 100%;
+  height: 100vh;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.header {
+  max-width: 750px;
+  justify-self: flex-end;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 75px;
+}
+
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.navigation-item {
+  display: flex;
+  justify-content: center;
+  max-width: 140px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 18px;
+  border: 1px solid #000;
+}
+
+.logo {
+  display: grid;
+}
+.logo__top {
+  display: flex;
+  justify-content: space-between;
+}
+.logo__default {
+  font-size: 42px;
+  font-weight: 700;
+  transform: rotate(270deg) translateX(-33px);
+}
+.logo__default-wrapper {
+  border: 2px solid #000;
+}
+.logo_big {
+  width: 86px;
+  height: 86px;
+  padding: 10px 30px;
+  padding-top: 0;
+}
+.logo_big-i {
+  font-size: 90px;
+  font-weight: 700;
+  transform: rotate(90deg) translate(-10px, 20px);
+}
+.logo_big-p {
+  width: 100px;
+  font-size: 90px;
+  font-weight: 700;
+  transform: rotate(270deg);
+}
+.logo_big-s {
+  width: 100px;
+  font-size: 90px;
+  font-weight: 700;
+  transform: rotate(270deg) translateY(17px);
+}
+.logo-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-middle {
+  justify-self: center;
+}
+.logo_bold {
+  font-weight: 700;
+}
+.logo__full-first {
+  font-size: 75px;
+  font-weight: 300;
+}
+.logo__full-first-top {
+  font-size: 90px;
+}
+.logo__full-first-bottom {
+  font-size: 32px;
+  font-weight: 300;
+}
+
+/*# sourceMappingURL=style.css.map */
